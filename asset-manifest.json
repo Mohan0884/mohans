@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/mohans/static/css/main.e32bd082.css",
+    "main.js": "/mohans/static/js/main.d9779e71.js",
+    "static/media/profilephotoshoot.jpg": "/mohans/static/media/profilephotoshoot.ea9091b38ae8af46a4c0.jpg",
+    "static/media/getfit.png": "/mohans/static/media/getfit.77a2e658f9c55596ed1e.png",
+    "index.html": "/mohans/index.html",
+    "main.e32bd082.css.map": "/mohans/static/css/main.e32bd082.css.map",
+    "main.d9779e71.js.map": "/mohans/static/js/main.d9779e71.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e32bd082.css",
+    "static/js/main.d9779e71.js"
+  ]
+}
