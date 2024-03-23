@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans+SC:wght@100..900&display=swap');
+
+.titles{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    width: 100%;
+    flex-wrap: wrap;
+    font-family: "Encode Sans SC", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+.title-left{
+    width: 50%;
+    min-width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.title-title{
+    font-size: 2.5rem;
+}
+.title-right{
+    width: 40%;
+    min-width: 400px;
+    margin:10px;
+    overflow-y: hidden;
+}
+.title-image{
+    width:300px;
+    height:400px;
+    box-shadow:0px 4px  4px 4px olive;
+    transition-duration: 0.5s;
+    transform: rotate(5deg);
+    padding: 20px;
+}
+.title-image:hover{
+    transform: rotate(-10deg);
+    transition-duration: 0.5s;
+}
+.fa-icons{
+    width:40px;
+    height:40px;
+    padding:4px;
+    transition-duration: 0.3s;
+    
+}
+.fa-icons:hover{
+    padding: 0px ;
+    transition-duration: 0.3s;
+    cursor:pointer;
+    color: rgb(182, 182, 14);    
+}
+.links{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width:60%;
+    padding:10px;
+}
+.hrow{
+    color:black;
+}
+.title-para{
+    padding:10px;
+    font-size: 1.5rem;
+}
+.dashed-rule{
+    border: none; 
+    border-top: 4px dotted olivedrab; 
+    width: 100%; 
+}
+@media (max-width:800px){
+    .title-right{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin:30px;
+    }
+}

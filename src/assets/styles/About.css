@@ -1,0 +1,60 @@
+.about{
+    background-color: white;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    font-family: "Encode Sans SC", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+   
+}
+.dashed-rules{
+    border: none; 
+    border-top: 6px dotted olivedrab; 
+    width: 200px; 
+}
+.about-me-texts{
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    flex-wrap: wrap;
+}
+.about-me-left{
+    
+    width: 40%;
+    min-width: 400px;
+    padding: 2rem;
+    margin: 2rem;
+    box-shadow:0px 4px  4px 4px olive;
+    transform: rotate(-5deg);
+    transition-duration:0.5s ;
+}
+.about-me-left:hover{
+    
+    transform:rotate(0deg);
+    transition-duration:0.5s ;
+}
+.about-me-right{
+   
+    width: 40%;
+    padding:2rem;
+    margin: 2rem;
+    min-width: 400px;
+    box-shadow:0px 4px  4px 4px gray;
+    transform: rotate(7deg);
+    transition-duration:0.5s ;
+}
+.about-me-right:hover{
+    transform:rotate(0deg);
+    transition-duration:0.5s ;
+    cursor: pointer;
+}
+.about-me-title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
